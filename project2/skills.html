@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tom Leysen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stijl.css">
 </head>
 <body class="bg">
+  <!-- navbar  -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-top border-tom-bottom border-5">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">TL</a>
@@ -39,48 +44,66 @@
       </div>
     </div>
   </nav>
-  <div class="accordion w-50" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Leiderschap</button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">Dit heb ik geleerd als leiding in de Chiro. Als ploegverantwoordelijke voor de bedrukking bij Smurfit Kappa Turnhout, heb ik deze skill goed kunnen ontwikkelen in de weekendploeg.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Kritisch denken</button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">Door alles niet zomaar voor waar aan te nemen, heb ik een kritische blik ontwikkeld. Beweringen waar veel om draait zal ik steeds uitpluizen om zeker het rechte eind te hebben.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Organisatorisch</button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">Door middel van een goede organisatie heb ik steeds een goede blik op wat er nog te doen staat. Zo blijf ik leider over mijn eigen taken.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Gedisciplineerd</button>
-      </h2>
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-        <div class="accordion-body">Zonder discipline blijft uitstelgedrag baas. Het is daarom heel belangrijk om de planning te volgen en werk niet te laten opstapelen. Dit vergt natuurlijk de nodige discipline.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingFive">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Innovatief</button>
-      </h2>
-      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-        <div class="accordion-body">Dit is een belangrijke skill die vaak veel tegenwind krijgt. Thinking outside the box. Het is nooit een probleem om een nieuwe stroom te creeren in plaats van met de stroom mee te gaan. Hierdoor zijn de beste dingen ter wereld tot stand gekomen.</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <!-- skillbars  -->
+        <div class="container rounded-5 bg-grey p-0">
+          <div class="skills html rounded-5">html - 60%</div>
+        </div>
+        
+        <div class="container rounded-5 bg-grey p-0">
+          <div class="skills css rounded-5">CSS - 60%</div>
+        </div>
+        
+        <div class="container rounded-5 bg-grey p-0">
+          <div class="skills c rounded-5">C# - 70%</div>
+        </div></div>
+      <div class="col-md-3 col-sm-12">
+        <!-- star ratings  -->
+        <div class="starrating text-center">
+          <h2>Nederlands</h2>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <div class="starrating text-center">
+          <h2>Engels</h2>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <div class="starrating text-center">
+          <h2>Frans</h2>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        
+        
       </div>
     </div>
   </div>
+  
+<!-- carousel  -->
+
+<!-- <div class=" container owl-carousel">
+  <div> <img src="afbeeldingen/125cc.jpg" alt=""> </div>
+  <div> <img src="afbeeldingen/boeken_school.avif" alt=""> </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+</div> -->
+
+      <!-- footer  -->
   <div class="bg-black text-light border-tom-top p-3">
     <div class="row">
       <div class="col-sm-6">&copy Tom Leysen</div>
@@ -108,6 +131,8 @@
     </div>
   </div>
 </div>
+<script src="OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+<script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

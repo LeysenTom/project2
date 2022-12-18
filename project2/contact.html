@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/stijl.css">
 </head>
 <body class="bg">
+  <!-- navbar  -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-top border-tom-bottom border-5">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">TL</a>
@@ -39,6 +40,39 @@
       </div>
     </div>
   </nav>
+  <div class="container rounded-5 hobbytext">
+    <div class="row">
+      <!-- form -->
+      <div class="col-md-6 col-sm-12 m-0 p-5">
+        <form action="https://tm-statweb.be/sendmail.php" method="post">
+          <div>
+              <label for="voornaam" class="form-label">Voornaam</label>
+                  <input type="text" name="voornaam" id="voornaam" class="form-control" placeholder="Joske" required>
+      </div>
+      <div>
+              <label for="achternaam" class="form-label">Achternaam</label>
+                  <input type="text" name="achternaam" id="achternaam" class="form-control" placeholder="Vermeulen" required>
+      </div>
+      <div>
+          <label for="email" class="form-label">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Joske_Vermeulen@trammezantlei.be" required>
+      </div>
+      <div>
+          <textarea name="vraag" id="vraag" class="form-control" rows="5" placeholder="Stel hier je vraag." required></textarea>
+      </div>
+      <input type="hidden" name="studentemail" value="r0957117@student.thomasmore.be">
+      <div>
+          <button class="btn btn-danger w-100 my-4">Verzenden</button>
+      </div>
+      </form>
+      </div>
+    
+    <!-- google map  -->
+    <div class="col-md-6 col-sm-12 m-0 p-5"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79777.05293293964!2d4.8667467676155605!3d51.328914615739144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b1870f095deb%3A0x40099ab2f4d5dc0!2s2300%20Turnhout!5e0!3m2!1snl!2sbe!4v1666768071573!5m2!1snl!2sbe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-75"></iframe> </div>
+    </div>
+  </div>
+  </div>
+  <!-- footer  -->
   <div class="bg-black text-light border-tom-top p-3">
     <div class="row">
       <div class="col-sm-6">&copy Tom Leysen</div>
